@@ -1,7 +1,7 @@
 # NSHipster Homebrew Formulae
 
 ```terminal
-brew tap nshipster/formulae
+$ brew tap nshipster/formulae
 ```
 
 ## Currently On Tap
