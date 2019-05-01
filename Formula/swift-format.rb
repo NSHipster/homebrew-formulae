@@ -4,7 +4,7 @@ class SwiftFormat < Formula
   url "https://github.com/NSHipster/swift-format.git", :branch => "format"
   head "https://github.com/NSHipster/swift-format.git", :shallow => false
 
-  depends_on :xcode => ["10.0", :build]
+  depends_on :xcode => ["10.2", :build]
 
   def install
     system "make", "install", "prefix=#{prefix}"
