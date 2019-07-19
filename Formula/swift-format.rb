@@ -1,10 +1,10 @@
 class SwiftFormat < Formula
-  desc "A (proposed) official formatter for Swift"
+  desc "Formatting technology for Swift source code"
   homepage "https://github.com/NSHipster/swift-format"
-  url "https://github.com/NSHipster/swift-format.git", :branch => "format"
+  url "https://github.com/NSHipster/swift-format.git", :branch => "master"
   head "https://github.com/NSHipster/swift-format.git", :shallow => false
 
-  depends_on :xcode => ["10.2", :build]
+  depends_on :xcode => ["11.0", :build]
 
   def install
     system "make", "install", "prefix=#{prefix}"
