@@ -17,6 +17,10 @@ $ brew tap nshipster/formulae
 - **[swift-syntax-highlight][swift-syntax-highlight]**:
   A syntax highlighter for Swift code that uses SwiftSyntax to generate Pygments-compatible HTML.
   Run it from the command-line to highlight Swift code or source files.
+- **[uti][uti]**:
+  A command line tool that prints the
+  [Uniform Type Identifier](https://en.wikipedia.org/wiki/Uniform_Type_Identifier)
+  for files.
 
 ## License
 
@@ -30,3 +34,4 @@ Mattt ([@mattt](https://twitter.com/mattt))
 [swift-gyb]: https://github.com/NSHipster/swift-gyb
 [swift-format]: https://github.com/NSHipster/swift-format
 [swift-syntax-highlight]: https://github.com/NSHipster/SwiftSyntaxHighlighter
+[uti]: https://github.com/NSHipster/uti
