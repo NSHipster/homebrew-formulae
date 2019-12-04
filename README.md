@@ -9,6 +9,8 @@ $ brew tap nshipster/formulae
 - **[gyb][gyb]** _("Generate Your Boilerplate")_:
   A lightweight templating system used by the Swift Standard Library
   that allows you to use Python code for variable substitution and flow control.
+- **[ibcolortool][ibcolortool]**
+  A command line tool that lists colors in Storyboards and XIB files.
 - **[swift-gyb][swift-gyb]**:
   A command line tool that evaluates and runs a Swift GYB script.
 - **[swift-format][swift-format]**:
@@ -31,6 +33,7 @@ $ brew tap nshipster/formulae
 Mattt ([@mattt](https://twitter.com/mattt))
 
 [gyb]: https://nshipster.com/swift-gyb/
+[ibcolortool]: https://github.com/NSHipster/ibcolortool
 [swift-gyb]: https://github.com/NSHipster/swift-gyb
 [swift-format]: https://github.com/NSHipster/swift-format
 [swift-syntax-highlight]: https://github.com/NSHipster/SwiftSyntaxHighlighter
