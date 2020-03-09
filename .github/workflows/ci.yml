@@ -5,10 +5,8 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
-
+  tap:
     runs-on: macOS-latest
 
     steps:
-    - name: Brew Tap
-      run: brew tap ${{ github.repository }}
+    - run: brew tap ${{ github.repository }}
