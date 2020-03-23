@@ -3,6 +3,7 @@ class SwiftFormat < Formula
   homepage "https://github.com/NSHipster/swift-format"
   url "https://github.com/NSHipster/swift-format.git", :branch => "master"
   head "https://github.com/NSHipster/swift-format.git", :shallow => false
+  version "master"
 
   depends_on :xcode => ["11.0", :build]
 
