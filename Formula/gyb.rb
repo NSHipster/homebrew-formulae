@@ -8,8 +8,8 @@ class Gyb < Formula
   depends_on :xcode => ["10.0", :build]
 
   resource "gyb.py" do
-    url "https://raw.githubusercontent.com/apple/swift/02603ca57a23bf2f9348312a2eb41f3abd426d4a/utils/gyb.py"
-    sha256 "4f8b1ef12819c36c3aad6fab0d328f3e670924af9dc275b0f37ea55bb62b8b40"
+    url "https://raw.githubusercontent.com/apple/swift/dab60f04ca98c573378a5e78ed85d5a27a7ca2e0/utils/gyb.py"
+    sha256 "4693b65a8ea54173e20f2565a105af62d57d0e6f66540ea096e7caee737630f7"
     version "2019-01-18"
   end
   depends_on "python@2" if MacOS.version <= :snow_leopard
