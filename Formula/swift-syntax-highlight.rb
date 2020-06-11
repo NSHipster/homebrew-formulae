@@ -1,7 +1,7 @@
 class SwiftSyntaxHighlight < Formula
   desc "Syntax highlighter for Swift code"
   homepage "https://github.com/NSHipster/SwiftSyntaxHighlighter"
-  url "https://github.com/NSHipster/SwiftSyntaxHighlighter.git", :tag => "1.0.0", :revision => "4a20d10bba17241b66650d99081801536146b43c"
+  url "https://github.com/NSHipster/SwiftSyntaxHighlighter.git", :tag => "1.0.1", :revision => "a8a92e5db3c4a710036b47d24a5fc9b98901582a"
   head "https://github.com/NSHipster/SwiftSyntaxHighlighter.git", :shallow => false
 
   depends_on :xcode => ["11.4", :build]
