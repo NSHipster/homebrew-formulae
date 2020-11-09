@@ -1,4 +1,7 @@
 # typed: false
+# frozen_string_literal: true
+
+# :nodoc:
 class SwiftFormat < Formula
   desc "Formatting technology for Swift source code"
   homepage "https://github.com/NSHipster/swift-format"
