@@ -1,3 +1,7 @@
+# typed: false
+# frozen_string_literal: true
+
+# :nodoc:
 class Gyb < Formula
   desc "\"Generate Your Boilerplate\""
   homepage "https://nshipster.com/swift-gyb/"
@@ -5,7 +9,7 @@ class Gyb < Formula
   version "2019-01-18"
   sha256 "0a97b3ac257fa29d6240d1878590facd1d80053491cc14601f7e68bb182a29b1"
 
-  depends_on :xcode => ["10.0", :build]
+  depends_on xcode: ["10.0", :build]
 
   resource "gyb.py" do
     url "https://raw.githubusercontent.com/apple/swift/dab60f04ca98c573378a5e78ed85d5a27a7ca2e0/utils/gyb.py"
@@ -17,10 +21,10 @@ class Gyb < Formula
   def install
     resource("gyb.py").stage { bin.install "gyb.py" }
     bin.install "gyb"
-    system "chmod", "+x", File.join(bin, "gyb")
+    chmod 0755, bin/"gyb"
   end
 
   test do
-    system "#{bin}/gyb" "--help"
+    system bin/"gyb", "--help"
   end
 end
