@@ -14,7 +14,7 @@ class SwiftGyb < Formula
     system "swift", "build",
            "--configuration", "release",
            "--disable-sandbox",
-           "-Xswiftc", "-static-stdlib",
+           "-Xswiftc",
            "--build-path", buildpath.to_s
 
     bin.install buildpath/"release/swift-gyb" => "swift-gyb"
